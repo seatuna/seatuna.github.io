@@ -31,9 +31,21 @@ a {
     transition: all .35s;
 }
 
+a.light {
+  color: #fff;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
 a:hover,
 a:focus {
     color: #1abc9c;
+}
+
+a.light:hover,
+a.light:focus {
+    color: #34495e;
 }
 
 h1,
